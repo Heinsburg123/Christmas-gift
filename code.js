@@ -12,7 +12,7 @@ gift2.onmousedown=(e)=>{click(gift2,ribbon2,e)}
 gift3.onmousedown=(e)=>{click(gift3,ribbon3,e)}
 
 star=document.querySelector('.star')
-text=document.querySelector('h1')
+text=document.querySelector('.startcontent')
 
 var Pre_x=0, Pre_y=0
 
