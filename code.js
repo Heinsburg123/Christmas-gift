@@ -12,11 +12,11 @@ gift2.onmousedown=(e)=>{click(gift2,ribbon2,e)}
 gift3.onmousedown=(e)=>{click(gift3,ribbon3,e)}
 
 star=document.querySelector('.star')
-text=document.querySelector('.startcontent')
+text=document.querySelector('.starcontent')
 
 var Pre_x=0, Pre_y=0
 
-star.onmousedown=reveal
+star.onclick=reveal
 
 
 function reveal()
